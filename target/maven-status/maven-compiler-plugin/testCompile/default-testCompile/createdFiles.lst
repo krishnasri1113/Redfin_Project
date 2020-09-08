@@ -1,0 +1,5 @@
+com\Redfin\Testrunner\testrunner.class
+Redfin_TestCase.class
+com\Redfin\POM_searchhouses\searchhouse_page.class
+com\Redfin\SteDefinitionFile\stepdefinitionfile.class
+com\Redfin\SteDefinitionFile\hooks.class

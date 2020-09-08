@@ -1,0 +1,238 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 16130663300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.seting_up_Environment()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "search houses by min and max prices",
+        "description": "",
+        "id": "redfin-functionality;search-houses-by-min-and-max-prices;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 4330346000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.quit_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 200804200,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Redfin site is launched",
+            "match": {
+              "location": "stepdefinitionfile.redfin_site_is_launched()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 281019500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "when user enter the \"Dallas\" name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Dallas",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefinitionfile.when_user_enter_the_name(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 123383100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user click on search button",
+            "match": {
+              "location": "stepdefinitionfile.user_click_on_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4114957300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "select the city name from the list",
+            "match": {
+              "location": "stepdefinitionfile.select_the_city_name_from_the_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 690027800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Select max house price",
+            "match": {
+              "location": "stepdefinitionfile.select_max_house_price()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 263107200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Select min house price",
+            "match": {
+              "location": "stepdefinitionfile.select_min_house_price()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 15528205800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.seting_up_Environment()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "search houses by min and max prices",
+        "description": "",
+        "id": "redfin-functionality;search-houses-by-min-and-max-prices;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 107495700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.quit_browser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2672400,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Redfin site is launched",
+            "match": {
+              "location": "stepdefinitionfile.redfin_site_is_launched()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 578837100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "when user enter the \"Sunnyvale\" name",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Sunnyvale",
+                  "offset": 21
+                }
+              ],
+              "location": "stepdefinitionfile.when_user_enter_the_name(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 210509700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user click on search button",
+            "match": {
+              "location": "stepdefinitionfile.user_click_on_search_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1695020600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "select the city name from the list",
+            "match": {
+              "location": "stepdefinitionfile.select_the_city_name_from_the_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3540405400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Select max house price",
+            "match": {
+              "location": "stepdefinitionfile.select_max_house_price()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 259101700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Select min house price",
+            "match": {
+              "location": "stepdefinitionfile.select_min_house_price()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Redfin functionality",
+    "description": "",
+    "id": "redfin-functionality",
+    "keyword": "Feature",
+    "uri": "Redfin.feature"
+  }
+]
