@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: Redfin_TestCase
+Test set: com.Redfin.Testrunner.testrunner
 -------------------------------------------------------------------------------
-Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.427 sec - in Redfin_TestCase
+Tests run: 0, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 31.579 sec - in com.Redfin.Testrunner.testrunner

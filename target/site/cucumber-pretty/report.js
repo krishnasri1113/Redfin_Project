@@ -75,7 +75,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 16130663300,
+  "duration": 7471499600,
   "status": "passed"
 });
 formatter.scenario({
@@ -123,7 +123,7 @@ formatter.match({
   "location": "stepdefinitionfile.redfin_site_is_launched()"
 });
 formatter.result({
-  "duration": 200804200,
+  "duration": 122876600,
   "status": "passed"
 });
 formatter.match({
@@ -136,43 +136,43 @@ formatter.match({
   "location": "stepdefinitionfile.when_user_enter_the_name(String)"
 });
 formatter.result({
-  "duration": 281019500,
+  "duration": 216315700,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefinitionfile.user_click_on_search_button()"
 });
 formatter.result({
-  "duration": 123383100,
+  "duration": 134126800,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefinitionfile.select_the_city_name_from_the_list()"
 });
 formatter.result({
-  "duration": 4114957300,
+  "duration": 777283000,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefinitionfile.select_max_house_price()"
 });
 formatter.result({
-  "duration": 690027800,
+  "duration": 3039271100,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefinitionfile.select_min_house_price()"
 });
 formatter.result({
-  "duration": 263107200,
+  "duration": 274134900,
   "status": "passed"
 });
 formatter.after({
-  "duration": 4330346000,
+  "duration": 4322865400,
   "status": "passed"
 });
 formatter.before({
-  "duration": 15528205800,
+  "duration": 6631598200,
   "status": "passed"
 });
 formatter.scenario({
@@ -220,7 +220,7 @@ formatter.match({
   "location": "stepdefinitionfile.redfin_site_is_launched()"
 });
 formatter.result({
-  "duration": 2672400,
+  "duration": 1912100,
   "status": "passed"
 });
 formatter.match({
@@ -233,39 +233,39 @@ formatter.match({
   "location": "stepdefinitionfile.when_user_enter_the_name(String)"
 });
 formatter.result({
-  "duration": 578837100,
+  "duration": 309670800,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefinitionfile.user_click_on_search_button()"
 });
 formatter.result({
-  "duration": 210509700,
+  "duration": 98439600,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefinitionfile.select_the_city_name_from_the_list()"
 });
 formatter.result({
-  "duration": 1695020600,
+  "duration": 736851000,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefinitionfile.select_max_house_price()"
 });
 formatter.result({
-  "duration": 3540405400,
+  "duration": 2330809800,
   "status": "passed"
 });
 formatter.match({
   "location": "stepdefinitionfile.select_min_house_price()"
 });
 formatter.result({
-  "duration": 259101700,
+  "duration": 315711200,
   "status": "passed"
 });
 formatter.after({
-  "duration": 107495700,
+  "duration": 4089041200,
   "status": "passed"
 });
 });

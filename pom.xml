@@ -3,9 +3,9 @@
   <groupId>Selinum_RedfinProject</groupId>
   <artifactId>Selinum_RedfinProject</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
+<!--   <properties> -->
+<!--     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding> -->
+<!--   </properties> -->
   <dependencies>
   <!-- https://mvnrepository.com/artifact/org.testng/testng -->
   <dependency>
@@ -20,12 +20,12 @@
     <artifactId>selenium-java</artifactId>
     <version>3.141.5</version>
 </dependency>
-<dependency>
-     <groupId>junit</groupId>
-     <artifactId>junit</artifactId>
-     <version>4.12</version>
-     <scope>test</scope>
- </dependency>
+<!-- <dependency> -->
+<!--      <groupId>junit</groupId> -->
+<!--      <artifactId>junit</artifactId> -->
+<!--      <version>4.12</version> -->
+<!--      <scope>test</scope> -->
+<!--  </dependency> -->
 <dependency>
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
@@ -58,7 +58,7 @@
 				<configuration>
 					<source>1.8</source>
 					<target>1.8</target>
-					<encoding>UTF-8</encoding>     
+<!-- 					<encoding>UTF-8</encoding>      -->
 				</configuration>
 			</plugin>
 
@@ -67,9 +67,9 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <version>2.19.1</version>
                 <configuration>
-                <forkCount>0</forkCount>
+<!--                 <forkCount>0</forkCount> -->
                 <includes>
-                <exclude>**/*testrunner.java</exclude>
+                <exclude>**/*runner.java</exclude>
                 </includes>
         <testFailureIgnore>true</testFailureIgnore>
      </configuration>
